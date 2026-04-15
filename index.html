@@ -223,6 +223,75 @@
   .final-cta .script { color: var(--gold); }
   .final-cta p { color: rgba(255,255,255,.85); max-width: 560px; margin: 0 auto 32px; }
 
+  /* Client logo carousel */
+  .clients {
+    padding: 56px 0;
+    background: var(--white);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .clients .label {
+    text-align: center; font-size: 13px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .14em;
+    color: #888; margin-bottom: 28px;
+  }
+  .marquee {
+    overflow: hidden; position: relative;
+    mask-image: linear-gradient(90deg, transparent 0, #000 10%, #000 90%, transparent 100%);
+    -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 10%, #000 90%, transparent 100%);
+  }
+  .marquee-track {
+    display: flex; gap: 64px; width: max-content;
+    animation: scroll 40s linear infinite;
+    align-items: center;
+  }
+  .marquee:hover .marquee-track { animation-play-state: paused; }
+  .marquee .logo {
+    flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+    width: 170px; height: 64px;
+    background: #f4f1e8; border: 1px dashed #c9c2ad;
+    border-radius: 10px; color: #7a7260;
+    font-family: 'Archivo Black', 'Poppins', sans-serif;
+    font-size: 14px; letter-spacing: .05em; text-align: center;
+    padding: 0 12px; font-weight: 900; text-transform: uppercase;
+  }
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+
+  /* Reviews */
+  .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  @media (max-width: 900px) { .reviews-grid { grid-template-columns: 1fr; } }
+  .review {
+    background: var(--white); border: 1px solid var(--line);
+    border-radius: var(--r-lg); padding: 32px;
+    display: flex; flex-direction: column; gap: 16px;
+    position: relative;
+  }
+  .review .stars {
+    display: flex; gap: 2px; color: var(--gold-dark);
+  }
+  .review .stars svg { width: 20px; height: 20px; }
+  .review blockquote {
+    margin: 0; font-size: 1rem; color: #333; line-height: 1.7;
+    font-style: italic;
+  }
+  .review .meta {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-top: auto; padding-top: 12px; border-top: 1px solid var(--line);
+    font-size: 14px;
+  }
+  .review .meta .name { color: var(--blue); font-weight: 600; }
+  .review .meta .where { color: #888; font-size: 13px; }
+  .review .google {
+    position: absolute; top: 20px; right: 20px;
+    font-size: 11px; font-weight: 600; color: #888;
+    letter-spacing: .06em; text-transform: uppercase;
+  }
+  .reviews-cta { text-align: center; margin-top: 40px; }
+  .reviews-cta a { color: var(--blue); font-weight: 600; }
+
   /* Footer */
   footer {
     background: var(--ink); color: rgba(255,255,255,.75);
@@ -406,6 +475,102 @@
   </div>
 </section>
 
+<section class="clients" aria-label="Our commercial clients">
+  <div class="container">
+    <div class="label">Trusted by commercial clients across Los Angeles</div>
+    <div class="marquee">
+      <div class="marquee-track">
+        <!-- Placeholders. Replace with real client logo images later. -->
+        <div class="logo">Abbot Kinney Hotel</div>
+        <div class="logo">Venice Beach Co.</div>
+        <div class="logo">Westside Dental</div>
+        <div class="logo">Palisades Market</div>
+        <div class="logo">Brentwood Bistro</div>
+        <div class="logo">Santa Monica Pier Inn</div>
+        <div class="logo">Culver Grove</div>
+        <div class="logo">Beverly Glen Realty</div>
+        <div class="logo">Manhattan Tile Co.</div>
+        <div class="logo">Venice Canal Homes</div>
+        <div class="logo">OC Harbor Club</div>
+        <div class="logo">West LA Yoga</div>
+        <!-- Duplicate set for seamless loop -->
+        <div class="logo">Abbot Kinney Hotel</div>
+        <div class="logo">Venice Beach Co.</div>
+        <div class="logo">Westside Dental</div>
+        <div class="logo">Palisades Market</div>
+        <div class="logo">Brentwood Bistro</div>
+        <div class="logo">Santa Monica Pier Inn</div>
+        <div class="logo">Culver Grove</div>
+        <div class="logo">Beverly Glen Realty</div>
+        <div class="logo">Manhattan Tile Co.</div>
+        <div class="logo">Venice Canal Homes</div>
+        <div class="logo">OC Harbor Club</div>
+        <div class="logo">West LA Yoga</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">5-star Google Reviews</div>
+      <h2>What our customers are saying.</h2>
+      <p>Real reviews from real neighbors across the Westside. <em style="color:#888;">(Sample placeholders below — swap in real Google reviews.)</em></p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review">
+        <span class="google">★ Google</span>
+        <div class="stars" aria-label="5 out of 5 stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <blockquote>"[SAMPLE] Trip's team showed up on time, was respectful of our home, and the windows have never looked better. We'll absolutely be booking them again next season."</blockquote>
+        <div class="meta">
+          <span class="name">Sarah M.</span>
+          <span class="where">Santa Monica · 2 weeks ago</span>
+        </div>
+      </div>
+      <div class="review">
+        <span class="google">★ Google</span>
+        <div class="stars" aria-label="5 out of 5 stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <blockquote>"[SAMPLE] Booked Trip's for our commercial storefront and couldn't be happier. Crew was professional, pricing was fair, and the glass looks brand new. Highly recommend."</blockquote>
+        <div class="meta">
+          <span class="name">David K.</span>
+          <span class="where">Venice · 1 month ago</span>
+        </div>
+      </div>
+      <div class="review">
+        <span class="google">★ Google</span>
+        <div class="stars" aria-label="5 out of 5 stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <blockquote>"[SAMPLE] The 48-hour re-clean guarantee is real — we had a spot we missed and they came right back, no questions asked. That's how you earn a customer for life."</blockquote>
+        <div class="meta">
+          <span class="name">Jennifer R.</span>
+          <span class="where">Brentwood · 3 weeks ago</span>
+        </div>
+      </div>
+    </div>
+    <div class="reviews-cta">
+      <a href="https://www.google.com/search?q=trips+window+services" target="_blank" rel="noopener">See all our Google reviews →</a>
+    </div>
+  </div>
+</section>
+
 <section id="areas" class="alt">
   <div class="container">
     <div class="section-head">
@@ -527,5 +692,3 @@
 
 </body>
 </html>
-
-Add v1 homepage
