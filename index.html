@@ -248,13 +248,24 @@
   .marquee:hover .marquee-track { animation-play-state: paused; }
   .marquee .logo {
     flex-shrink: 0; display: flex; align-items: center; justify-content: center;
-    width: 170px; height: 64px;
-    background: #f4f1e8; border: 1px dashed #c9c2ad;
-    border-radius: 10px; color: #7a7260;
-    font-family: 'Archivo Black', 'Poppins', sans-serif;
-    font-size: 14px; letter-spacing: .05em; text-align: center;
-    padding: 0 12px; font-weight: 900; text-transform: uppercase;
+    height: 48px; padding: 0 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; font-size: 22px;
+    color: #8a8479; letter-spacing: -.01em;
+    white-space: nowrap;
+    transition: color .25s, transform .25s;
   }
+  .marquee .logo:hover { color: var(--blue); transform: scale(1.04); }
+  /* Brand-authentic type treatments */
+  .logo-lululemon { text-transform: lowercase; letter-spacing: .02em; font-weight: 600; }
+  .logo-aesop { font-family: 'Fraunces', serif; font-weight: 600; text-transform: uppercase; letter-spacing: .25em; font-size: 18px; font-style: normal; }
+  .logo-chipotle { font-family: 'Archivo Black', sans-serif; font-weight: 900; }
+  .logo-untuckit { font-weight: 800; letter-spacing: -.02em; }
+  .logo-starbucks { font-family: 'Fraunces', serif; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; font-size: 18px; }
+  .logo-purple { font-weight: 800; text-transform: lowercase; letter-spacing: -.02em; }
+  .logo-vanleeuwen { font-family: 'Fraunces', serif; font-style: italic; font-weight: 600; }
+  .logo-cvs { font-weight: 800; letter-spacing: -.01em; }
+  .logo-westmarine { font-weight: 600; letter-spacing: -.01em; }
   @keyframes scroll {
     from { transform: translateX(0); }
     to   { transform: translateX(-50%); }
@@ -480,32 +491,26 @@
     <div class="label">Trusted by commercial clients across Los Angeles</div>
     <div class="marquee">
       <div class="marquee-track">
-        <!-- Placeholders. Replace with real client logo images later. -->
-        <div class="logo">Abbot Kinney Hotel</div>
-        <div class="logo">Venice Beach Co.</div>
-        <div class="logo">Westside Dental</div>
-        <div class="logo">Palisades Market</div>
-        <div class="logo">Brentwood Bistro</div>
-        <div class="logo">Santa Monica Pier Inn</div>
-        <div class="logo">Culver Grove</div>
-        <div class="logo">Beverly Glen Realty</div>
-        <div class="logo">Manhattan Tile Co.</div>
-        <div class="logo">Venice Canal Homes</div>
-        <div class="logo">OC Harbor Club</div>
-        <div class="logo">West LA Yoga</div>
+        <!-- Real clients. Text wordmarks until real logo image files are uploaded. -->
+        <div class="logo logo-chipotle">CHIPOTLE</div>
+        <div class="logo logo-untuckit">UNTUCKit</div>
+        <div class="logo logo-purple">purple</div>
+        <div class="logo logo-lululemon">lululemon</div>
+        <div class="logo logo-westmarine">West Marine</div>
+        <div class="logo logo-vanleeuwen">Van Leeuwen</div>
+        <div class="logo logo-aesop">Aesop</div>
+        <div class="logo logo-cvs">CVS Pharmacy</div>
+        <div class="logo logo-starbucks">Starbucks</div>
         <!-- Duplicate set for seamless loop -->
-        <div class="logo">Abbot Kinney Hotel</div>
-        <div class="logo">Venice Beach Co.</div>
-        <div class="logo">Westside Dental</div>
-        <div class="logo">Palisades Market</div>
-        <div class="logo">Brentwood Bistro</div>
-        <div class="logo">Santa Monica Pier Inn</div>
-        <div class="logo">Culver Grove</div>
-        <div class="logo">Beverly Glen Realty</div>
-        <div class="logo">Manhattan Tile Co.</div>
-        <div class="logo">Venice Canal Homes</div>
-        <div class="logo">OC Harbor Club</div>
-        <div class="logo">West LA Yoga</div>
+        <div class="logo logo-chipotle">CHIPOTLE</div>
+        <div class="logo logo-untuckit">UNTUCKit</div>
+        <div class="logo logo-purple">purple</div>
+        <div class="logo logo-lululemon">lululemon</div>
+        <div class="logo logo-westmarine">West Marine</div>
+        <div class="logo logo-vanleeuwen">Van Leeuwen</div>
+        <div class="logo logo-aesop">Aesop</div>
+        <div class="logo logo-cvs">CVS Pharmacy</div>
+        <div class="logo logo-starbucks">Starbucks</div>
       </div>
     </div>
   </div>
