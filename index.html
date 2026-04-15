@@ -129,8 +129,23 @@
   .btn-primary:hover { background: var(--gold-dark); text-decoration: none; transform: translateY(-1px); }
   .btn-ghost { background: transparent; color: var(--blue); border-color: var(--blue); }
   .btn-ghost:hover { background: var(--blue); color: var(--white); text-decoration: none; }
-  .hero-badge { justify-self: center; }
-  .hero-badge img { width: 100%; max-width: 380px; height: auto; filter: drop-shadow(0 12px 30px rgba(38,86,148,.2)); }
+  .hero-photo { justify-self: stretch; position: relative; }
+  .hero-photo img {
+    width: 100%; height: auto; max-height: 560px; object-fit: cover;
+    border-radius: var(--r-lg);
+    box-shadow: 0 20px 60px rgba(26,29,36,.25), 0 4px 12px rgba(26,29,36,.12);
+    display: block;
+  }
+  .hero-photo::after {
+    content: ''; position: absolute; inset: auto -18px -18px auto;
+    width: 120px; height: 120px;
+    background: url('/logo-badge.png') center/contain no-repeat;
+    background-color: var(--white);
+    border-radius: 50%;
+    box-shadow: 0 8px 24px rgba(26,29,36,.18);
+    padding: 8px;
+  }
+  @media (max-width: 900px) { .hero-photo::after { width: 84px; height: 84px; inset: auto -8px -8px auto; } }
   .trust-strip { display: flex; flex-wrap: wrap; gap: 28px; margin-top: 36px; font-size: 14px; color: #555; }
   .trust-strip b { color: var(--blue); }
 
@@ -437,8 +452,8 @@
           <div>✦ <b>Licensed &amp; insured</b></div>
         </div>
       </div>
-      <div class="hero-badge">
-        <img src="/logo-badge.png" alt="Trip's Windows — established 2020, Venice, California" />
+      <div class="hero-photo">
+        <img src="/hero-home.jpg" alt="Trip's Windows team cleaning the exterior of a luxury Los Angeles home" width="1600" height="1200" />
       </div>
     </div>
   </div>
