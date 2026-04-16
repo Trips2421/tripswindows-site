@@ -733,6 +733,23 @@
 }
 .client-pill:hover { background: var(--blue); color: var(--white); }
 
+/* Technology / platform logos row — commercial page */
+.tech-logos {
+  display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;
+  margin-top: 48px;
+}
+.tech-logo-item {
+  padding: 16px 28px; border-radius: var(--r-md, 12px);
+  background: var(--white); border: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: center;
+  transition: all .2s;
+}
+.tech-logo-item:hover { border-color: var(--blue); box-shadow: var(--shadow-sm); }
+.tech-name {
+  font-weight: 700; font-size: 15px; color: var(--blue);
+  letter-spacing: .02em;
+}
+
 /* Footer */
 .site-footer {
   background: var(--blue-dark, #1e4478); color: rgba(255,255,255,.85);
