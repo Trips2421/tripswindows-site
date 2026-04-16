@@ -601,6 +601,39 @@
 /* Commercial pressure washing hero — placeholder gradient until photo is added */
 .commercial-pw-hero { background-image: none; background: linear-gradient(135deg, var(--paper) 0%, #e8e3d6 100%); }
 
+/* City page hero — reuses .hero layout with centered text */
+.city-hero {
+  position: relative;
+  padding: 100px 0 80px;
+  overflow: hidden;
+  text-align: center;
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+}
+.city-hero::before {
+  content: ''; position: absolute; inset: 0;
+  pointer-events: none;
+}
+.city-hero .container { position: relative; z-index: 1; }
+.city-hero .eyebrow {
+  font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .14em;
+  margin-bottom: 16px;
+}
+.city-hero h1 { margin-bottom: 8px; }
+.city-hero .script { display: block; font-size: clamp(1.4rem, 3vw, 2rem); margin-bottom: 20px; }
+.city-hero p.lede { font-size: 1.05rem; color: #444; max-width: 680px; margin: 0 auto 32px; line-height: 1.7; }
+@media (max-width: 900px) { .city-hero { padding: 72px 0 56px; } }
+
+/* Venice hero — placeholder gradient until photo is added */
+.venice-hero {
+  background-image: none;
+  background: linear-gradient(180deg, #f5f1e6 0%, var(--paper) 60%, var(--white) 100%);
+  border-bottom: 1px solid var(--line);
+}
+.venice-hero::before {
+  background: radial-gradient(800px 400px at 50% 30%, rgba(38,86,148,.06), transparent 70%),
+              radial-gradient(600px 300px at 80% 70%, rgba(255,202,86,.08), transparent 70%);
+}
+
 /* Cream-background alternating sections */
 .section-cream { background: var(--paper); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 80px 0; }
 .section-cream + .section-cream { padding-top: 0; }
