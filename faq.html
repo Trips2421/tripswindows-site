@@ -25,6 +25,64 @@
 
 <link rel="stylesheet" href="/styles.css" />
 
+<!-- JSON-LD: Site-wide Organization schema (identical on every page — single-entity graph) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://tripswindows.com/#organization",
+  "name": "Trip's Window Services",
+  "alternateName": "Trip's Windows",
+  "url": "https://tripswindows.com/",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://tripswindows.com/logo-wordmark-blue.png",
+    "contentUrl": "https://tripswindows.com/logo-wordmark-blue.png",
+    "width": 600,
+    "height": 200,
+    "caption": "Trip's Windows logo"
+  },
+  "image": "https://tripswindows.com/logo-badge.png",
+  "description": "Family-run window cleaning, pressure washing, gutter cleaning, and screen repair serving Los Angeles, the Westside, and parts of Orange County since 2020.",
+  "foundingDate": "2020",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Venice, California"
+  },
+  "email": "info@tripswindows.com",
+  "telephone": "+13103630781",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Venice",
+    "addressRegion": "CA",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    {"@type":"City","name":"Venice"},
+    {"@type":"City","name":"Santa Monica"},
+    {"@type":"City","name":"Los Angeles"},
+    {"@type":"Place","name":"West Los Angeles"},
+    {"@type":"Place","name":"Brentwood"},
+    {"@type":"Place","name":"Pacific Palisades"},
+    {"@type":"City","name":"Beverly Hills"},
+    {"@type":"City","name":"Culver City"},
+    {"@type":"City","name":"Manhattan Beach"}
+  ],
+  "knowsAbout": [
+    "Window Cleaning",
+    "Residential Window Cleaning",
+    "Commercial Window Cleaning",
+    "Pressure Washing",
+    "Gutter Cleaning",
+    "Screen Repair",
+    "Post-Construction Cleanup",
+    "Hard Water Stain Removal",
+    "Coastal Salt-Spray Window Maintenance"
+  ],
+  "slogan": "Let Your Home Shine."
+}
+</script>
+
 <!-- BreadcrumbList schema -->
 <script type="application/ld+json">
 {
