@@ -835,6 +835,17 @@
               radial-gradient(600px 300px at 60% 55%, rgba(160,130,80,.05), transparent 70%);
 }
 
+/* Beverly Hills hero — placeholder gradient until photo is added */
+.beverly-hills-hero {
+  background-image: none;
+  background: linear-gradient(180deg, #ece8e0 0%, var(--paper) 60%, var(--white) 100%);
+  border-bottom: 1px solid var(--line);
+}
+.beverly-hills-hero::before {
+  background: radial-gradient(800px 400px at 50% 30%, rgba(38,86,148,.05), transparent 70%),
+              radial-gradient(600px 300px at 55% 60%, rgba(180,160,100,.06), transparent 70%);
+}
+
 /* Cream-background alternating sections */
 .section-cream { background: var(--paper); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 80px 0; }
 .section-cream + .section-cream { padding-top: 0; }
