@@ -579,7 +579,7 @@
    ================================================ */
 
 /* Hero — reuses .hero but with a darker overlay suited to service pages */
-.service-hero { background-image: url('/hero-home.jpg'); }
+.service-hero { background-image: url('/services/hero-residential.jpg'); }
 
 /* Cream-background alternating sections */
 .section-cream { background: var(--paper); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 80px 0; }
