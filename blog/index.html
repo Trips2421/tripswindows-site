@@ -115,13 +115,31 @@
   <div class="row">
     <a href="/" aria-label="Trip's Windows home"><img src="/logo-wordmark-blue.png" alt="Trip's Windows" /></a>
     <div class="links">
-      <a href="/#services">Services</a>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown__toggle" aria-expanded="false" aria-haspopup="true">Services <span class="nav-chevron">▾</span></button>
+        <div class="nav-dropdown__menu">
+          <a href="/services/residential-window-cleaning">Residential Window Cleaning</a>
+          <a href="/services/commercial-window-cleaning">Commercial Window Cleaning</a>
+          <a href="/services/pressure-washing">Residential Pressure Washing</a>
+          <a href="/services/commercial-pressure-washing">Commercial Pressure Washing</a>
+          <a href="/services/gutter-cleaning">Gutter Cleaning</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown__toggle nav-dropdown__toggle--active" aria-expanded="false" aria-haspopup="true">About Us <span class="nav-chevron">▾</span></button>
+        <div class="nav-dropdown__menu">
+          <a href="/#about">About</a>
+          <a href="/blog">Blog</a>
+          <a href="/faq">FAQ</a>
+          <a href="/contact">Contact</a>
+        </div>
+      </div>
       <a href="/service-area">Service Area</a>
-      <a href="/#about">About</a>
-      <a href="/blog" class="active">Blog</a>
-      <a href="/contact">Contact</a>
       <a href="/contact" class="cta">Get a Free Estimate</a>
     </div>
+    <button class="nav-mobile-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </nav>
 
@@ -236,5 +254,36 @@
   </div>
 </footer>
 
+
+<script>
+const mobileToggle = document.querySelector('.nav-mobile-toggle');
+const navLinks = document.querySelector('nav.site .links');
+if (mobileToggle) {
+  mobileToggle.addEventListener('click', () => {
+    const open = mobileToggle.getAttribute('aria-expanded') === 'true';
+    mobileToggle.setAttribute('aria-expanded', !open);
+    navLinks.classList.toggle('open');
+  });
+}
+document.querySelectorAll('.nav-dropdown__toggle').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    if (window.innerWidth <= 760) {
+      e.preventDefault();
+      const dd = btn.closest('.nav-dropdown');
+      const wasOpen = dd.classList.contains('open');
+      document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
+      if (!wasOpen) dd.classList.add('open');
+      btn.setAttribute('aria-expanded', !wasOpen);
+    }
+  });
+});
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.nav-dropdown') && !e.target.closest('.nav-mobile-toggle')) {
+    document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
+    if (navLinks) navLinks.classList.remove('open');
+    if (mobileToggle) mobileToggle.setAttribute('aria-expanded', 'false');
+  }
+});
+</script>
 </body>
 </html>
