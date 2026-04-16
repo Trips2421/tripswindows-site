@@ -418,6 +418,20 @@
 .promise-card h3 { color: var(--blue); margin-bottom: 8px; font-size: 1.2rem; }
 .promise-card p { color: #555; font-size: .95rem; margin: 0; }
 
+/* Promise section with photo background (service pages) */
+.promise-photo {
+  position: relative; padding: 80px 0; overflow: hidden;
+  background-image: url('/services/team-promise.jpg');
+  background-size: cover; background-position: center 30%;
+  background-repeat: no-repeat;
+}
+.promise-photo::before {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(26,62,107,.88) 0%, rgba(26,29,36,.82) 100%);
+  pointer-events: none;
+}
+.promise-photo .container { position: relative; z-index: 1; }
+
 /* Compact service grid for contact page */
 .services-compact { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
 @media (max-width: 900px) { .services-compact { grid-template-columns: repeat(2, 1fr); } }
