@@ -791,6 +791,17 @@
               radial-gradient(600px 300px at 80% 70%, rgba(255,202,86,.08), transparent 70%);
 }
 
+/* Pasadena hero — placeholder gradient until photo is added */
+.pasadena-hero {
+  background-image: none;
+  background: linear-gradient(180deg, #eae6da 0%, var(--paper) 60%, var(--white) 100%);
+  border-bottom: 1px solid var(--line);
+}
+.pasadena-hero::before {
+  background: radial-gradient(800px 400px at 50% 30%, rgba(38,86,148,.05), transparent 70%),
+              radial-gradient(600px 300px at 30% 60%, rgba(139,90,43,.06), transparent 70%);
+}
+
 /* Cream-background alternating sections */
 .section-cream { background: var(--paper); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 80px 0; }
 .section-cream + .section-cream { padding-top: 0; }
