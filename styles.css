@@ -596,6 +596,8 @@
 .service-hero { background-image: url('/services/hero-residential.jpg'); }
 .commercial-hero { background-image: url('/services/hero-commercial.jpg'); }
 .pressure-hero { background-image: url('/services/hero-pressure-washing.jpg'); }
+/* Gutter hero — placeholder gradient until photo is added */
+.gutter-hero { background-image: none; background: linear-gradient(135deg, var(--paper) 0%, #e8e3d6 100%); }
 
 /* Cream-background alternating sections */
 .section-cream { background: var(--paper); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 80px 0; }
