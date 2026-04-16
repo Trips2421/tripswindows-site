@@ -822,6 +822,16 @@
   padding-top: 12px; border-top: 1px solid var(--line); margin-top: auto;
 }
 
+/* Map embed in two-col layout */
+.two-col--map { align-items: stretch; }
+.map-embed {
+  border-radius: var(--r-lg); overflow: hidden;
+  border: 1px solid var(--line); box-shadow: var(--shadow-md);
+  min-height: 480px;
+}
+.map-embed iframe { display: block; width: 100%; height: 100%; }
+@media (max-width: 900px) { .map-embed { min-height: 360px; } }
+
 /* OC expand card */
 .city-card--expand {
   border-style: dashed; border-color: var(--gold-dark);
