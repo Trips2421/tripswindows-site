@@ -898,6 +898,36 @@
               radial-gradient(600px 300px at 55% 50%, rgba(70,140,190,.05), transparent 70%);
 }
 
+.burbank-hero {
+  background-image: none;
+  background: linear-gradient(180deg, #e8eaef 0%, var(--paper) 60%, var(--white) 100%);
+  border-bottom: 1px solid var(--line);
+}
+.burbank-hero::before {
+  background: radial-gradient(800px 400px at 50% 30%, rgba(38,86,148,.06), transparent 70%),
+              radial-gradient(600px 300px at 60% 50%, rgba(120,100,70,.05), transparent 70%);
+}
+
+.glendale-hero {
+  background-image: none;
+  background: linear-gradient(180deg, #e7ebf0 0%, var(--paper) 60%, var(--white) 100%);
+  border-bottom: 1px solid var(--line);
+}
+.glendale-hero::before {
+  background: radial-gradient(800px 400px at 50% 30%, rgba(38,86,148,.06), transparent 70%),
+              radial-gradient(600px 300px at 55% 50%, rgba(100,120,80,.05), transparent 70%);
+}
+
+.atwater-village-hero {
+  background-image: none;
+  background: linear-gradient(180deg, #eae8e4 0%, var(--paper) 60%, var(--white) 100%);
+  border-bottom: 1px solid var(--line);
+}
+.atwater-village-hero::before {
+  background: radial-gradient(800px 400px at 50% 30%, rgba(38,86,148,.06), transparent 70%),
+              radial-gradient(600px 300px at 65% 55%, rgba(140,110,70,.05), transparent 70%);
+}
+
 /* Chamber / trust badge bar */
 .trust-bar {
   margin-top: 40px;
