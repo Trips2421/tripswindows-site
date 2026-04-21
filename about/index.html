@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>About Us — Meet the Team | Trip's Windows</title>
+<meta name="description" content="Trip's Windows is a family-run window cleaning, pressure washing, and gutter cleaning company based in Venice, CA. Meet the crew, learn our values, and see why LA homeowners trust us with their properties." />
+<link rel="canonical" href="https://tripswindows.com/about" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Trip's Windows" />
+<meta property="og:title" content="About Us — Meet the Team | Trip's Windows" />
+<meta property="og:description" content="Family-run window cleaning and pressure washing in LA. Meet the crew behind Trip's Windows and learn what sets us apart." />
+<meta property="og:image" content="https://tripswindows.com/logo-badge.png" />
+<meta property="og:url" content="https://tripswindows.com/about" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="About Us — Meet the Team | Trip's Windows" />
+<meta name="twitter:description" content="Family-run window cleaning and pressure washing in LA. Meet the crew behind Trip's Windows." />
+<meta name="theme-color" content="#265694" />
+
+<link rel="icon" type="image/png" href="/logo-badge.png" />
+<link rel="apple-touch-icon" href="/logo-badge.png" />
+
+<link rel="preload" href="/fonts/VeniceBlvdBlack.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/fonts/RedondoAve.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/styles.css" />
+
+<!-- JSON-LD: Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://tripswindows.com/#organization",
+  "name": "Trip's Window Services",
+  "alternateName": "Trip's Windows",
+  "url": "https://tripswindows.com/",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://tripswindows.com/logo-wordmark-blue.png",
+    "contentUrl": "https://tripswindows.com/logo-wordmark-blue.png",
+    "width": 600,
+    "height": 200,
+    "caption": "Trip's Windows logo"
+  },
+  "image": "https://tripswindows.com/logo-badge.png",
+  "description": "Family-run window cleaning, pressure washing, gutter cleaning, and screen repair serving Los Angeles, the Westside, and parts of Orange County since 2020.",
+  "foundingDate": "2020",
+  "foundingLocation": {"@type": "Place", "name": "Venice, California"},
+  "email": "info@tripswindows.com",
+  "telephone": "+13103630781",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Venice",
+    "addressRegion": "CA",
+    "addressCountry": "US"
+  },
+  "slogan": "Let Your Home Shine."
+}
+</script>
+
+<!-- BreadcrumbList schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://tripswindows.com/"},
+    {"@type":"ListItem","position":2,"name":"About","item":"https://tripswindows.com/about"}
+  ]
+}
+</script>
+
+<!-- AboutPage schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About Trip's Windows",
+  "description": "Learn about Trip's Windows — a family-run window cleaning, pressure washing, and gutter cleaning company based in Venice, California.",
+  "url": "https://tripswindows.com/about",
+  "isPartOf": {"@id": "https://tripswindows.com/#organization"},
+  "mainEntity": {"@id": "https://tripswindows.com/#organization"}
+}
+</script>
+
+<style>
+  .about-hero {
+    background: var(--blue); color: var(--white);
+    padding: 80px 0 64px; text-align: center;
+  }
+  .about-hero h1 { color: var(--white); margin-bottom: 16px; }
+  .about-hero .lede { color: rgba(255,255,255,.85); max-width: 620px; margin: 0 auto; font-size: 1.1rem; }
+
+  .about-story { padding: 72px 0; }
+  .about-story .two-col {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;
+  }
+  .about-story h2 { margin-bottom: 16px; }
+  .about-story p { margin-bottom: 16px; color: var(--ink-light); line-height: 1.7; }
+  .about-story .photo-placeholder {
+    background: linear-gradient(135deg, var(--blue) 0%, var(--blue-dark) 100%);
+    border-radius: var(--r-lg); padding: 100px 40px; text-align: center; color: white;
+  }
+
+  .about-values { background: var(--paper); padding: 72px 0; }
+  .about-values .section-head { text-align: center; margin-bottom: 48px; }
+  .values-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px;
+  }
+  .value-card {
+    background: var(--white); border-radius: var(--r-lg); padding: 32px;
+    border: 1px solid rgba(0,0,0,.06);
+  }
+  .value-card .icon-circle {
+    width: 56px; height: 56px; border-radius: 50%;
+    background: var(--blue); color: var(--white);
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 20px;
+  }
+  .value-card .icon-circle svg { width: 28px; height: 28px; }
+  .value-card h3 { font-size: 1.15rem; margin-bottom: 8px; }
+  .value-card p { color: var(--ink-light); line-height: 1.65; font-size: .95rem; }
+
+  .about-team { padding: 72px 0; }
+  .about-team .section-head { text-align: center; margin-bottom: 48px; }
+  .team-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px;
+  }
+  .team-card { text-align: center; }
+  .team-card .avatar {
+    width: 160px; height: 160px; border-radius: 50%; margin: 0 auto 20px;
+    background: linear-gradient(135deg, var(--gold) 0%, #e8b039 100%);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 2.5rem; color: var(--blue-dark); font-weight: 700;
+  }
+  .team-card h3 { font-size: 1.1rem; margin-bottom: 4px; }
+  .team-card .role { color: var(--blue); font-weight: 600; font-size: .9rem; margin-bottom: 10px; }
+  .team-card p { color: var(--ink-light); font-size: .93rem; line-height: 1.6; max-width: 300px; margin: 0 auto; }
+
+  .about-guarantee {
+    background: var(--blue-dark); color: var(--white); padding: 64px 0; text-align: center;
+  }
+  .about-guarantee h2 { color: var(--white); margin-bottom: 12px; }
+  .about-guarantee p { color: rgba(255,255,255,.8); max-width: 600px; margin: 0 auto 8px; }
+  .about-guarantee .badge-48 {
+    display: inline-block; background: var(--gold); color: var(--blue-dark);
+    font-weight: 700; font-size: .85rem; letter-spacing: .08em;
+    padding: 6px 18px; border-radius: 100px; margin-bottom: 20px;
+  }
+
+  @media (max-width: 900px) {
+    .about-story .two-col { grid-template-columns: 1fr; }
+    .values-grid { grid-template-columns: 1fr; }
+    .team-grid { grid-template-columns: 1fr; }
+  }
+  @media (min-width: 601px) and (max-width: 900px) {
+    .values-grid { grid-template-columns: repeat(2, 1fr); }
+    .team-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+
+<body>
+
+<nav class="site">
+  <div class="row">
+    <a href="/" aria-label="Trip's Windows home"><img src="/logo-wordmark-blue.png" alt="Trip's Windows" /></a>
+    <div class="links">
+      <div class="nav-dropdown">
+        <button class="nav-dropdown__toggle" aria-expanded="false" aria-haspopup="true">Services <span class="nav-chevron">▾</span></button>
+        <div class="nav-dropdown__menu">
+          <a href="/services/residential-window-cleaning">Residential Window Cleaning</a>
+          <a href="/services/commercial-window-cleaning">Commercial Window Cleaning</a>
+          <a href="/services/pressure-washing">Residential Pressure Washing</a>
+          <a href="/services/commercial-pressure-washing">Commercial Pressure Washing</a>
+          <a href="/services/gutter-cleaning">Gutter Cleaning</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown__toggle nav-dropdown__toggle--active" aria-expanded="false" aria-haspopup="true">About Us <span class="nav-chevron">▾</span></button>
+        <div class="nav-dropdown__menu">
+          <a href="/about">About</a>
+          <a href="/blog">Blog</a>
+          <a href="/faq">FAQ</a>
+          <a href="/contact">Contact</a>
+          <a href="/about/sell-your-business">Sell Your Business to Trip</a>
+        </div>
+      </div>
+      <a href="/service-area">Service Area</a>
+      <a href="/contact" class="cta">Get a Free Estimate</a>
+    </div>
+    <button class="nav-mobile-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Visible breadcrumb -->
+<div class="crumbs" aria-label="Breadcrumb">
+  <div class="container">
+    <a href="/">Home</a> <span>/</span> <span>About</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="about-hero">
+  <div class="container">
+    <div class="eyebrow-blue" style="color: var(--gold);">About Us</div>
+    <h1>We're not just in the neighborhood — we're part of it.</h1>
+    <p class="lede">Trip's Windows is a family-run business built on meticulous work, honest service, and showing up like we said we would. Based in Venice, California since 2020.</p>
+  </div>
+</section>
+
+<!-- OUR STORY -->
+<section class="about-story">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <h2>How it started.</h2>
+        <p>Trip's Windows was founded in 2020 in Venice, California — right in the middle of a time when most people were pulling back. We saw it differently. Neighbors needed help, homes needed care, and we knew we could do the work better than anyone.</p>
+        <p>What started as one guy with a squeegee and a ladder has grown into a full-service crew covering the Westside, the South Bay, the Valley, and beyond. We've cleaned everything from beachfront bungalows on the Venice Canals to commercial storefronts on Montana Avenue — and we bring the same standard to every job.</p>
+        <p>Today, Trip's Windows offers residential and commercial window cleaning, pressure washing, gutter cleaning, and screen repair across greater Los Angeles. We're still family-run, still based in Venice, and still obsessed with doing the job right.</p>
+      </div>
+      <div class="photo-placeholder">
+        <p style="font-size: 1.1rem; opacity: .8; margin: 0;">Team photo coming soon</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="about-values">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">What we stand for</div>
+      <h2>Our approach to every job.</h2>
+    </div>
+    <div class="values-grid">
+
+      <div class="value-card">
+        <div class="icon-circle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+        </div>
+        <h3>Meticulous work</h3>
+        <p>We don't rush through jobs. Every window, every gutter, every square foot of hardscape gets the attention it deserves. If it's not right, we make it right — that's what the 48-hour re-clean guarantee is for.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="icon-circle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4-4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3>Respectful service</h3>
+        <p>We treat your property like it's our own. That means showing up on time, communicating clearly, cleaning up after ourselves, and never leaving you guessing about what's happening or what it costs.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="icon-circle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Follow-through</h3>
+        <p>We do what we say we're going to do. Flat-rate quotes with no surprises, appointments that hold, and work that speaks for itself. If something's not up to standard, call us — we'll be back within 48 hours.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="icon-circle" style="background: var(--gold); color: var(--blue-dark);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg>
+        </div>
+        <h3>Community-rooted</h3>
+        <p>We live where we work. Venice is home, and the neighborhoods we serve are the same ones where our crew grabs coffee, walks their dogs, and raises their families. That matters to us.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="icon-circle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <h3>Reliable scheduling</h3>
+        <p>We know your time matters. That's why we give clear arrival windows, confirm appointments in advance, and keep you in the loop if anything changes. No ghosting, no "we'll be there sometime between 8 and 5."</p>
+      </div>
+
+      <div class="value-card">
+        <div class="icon-circle" style="background: var(--gold); color: var(--blue-dark);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <h3>Transparent pricing</h3>
+        <p>Every quote is flat-rate — no hourly surprises, no hidden fees. We scope the job, give you an honest number, and that's what you pay. Simple as that.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="about-team">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">The crew</div>
+      <h2>Meet the team behind Trip's Windows.</h2>
+      <p>We're a small team that takes a lot of pride in what we do. Here are the people who show up at your door.</p>
+    </div>
+    <div class="team-grid">
+
+      <div class="team-card">
+        <div class="avatar">M</div>
+        <h3>Mitch</h3>
+        <div class="role">Owner &amp; Founder</div>
+        <p>Started Trip's Windows in 2020 out of Venice. Still on the truck, still on every estimate, still obsessed with clean glass.</p>
+      </div>
+
+      <div class="team-card">
+        <div class="avatar">S</div>
+        <h3>Sam</h3>
+        <div class="role">Lead Technician</div>
+        <p>Detail-oriented and hardworking. Sam handles our toughest jobs — three-story canal homes, commercial buildings, you name it.</p>
+      </div>
+
+      <div class="team-card">
+        <div class="avatar">B</div>
+        <h3>Bradley</h3>
+        <div class="role">Technician</div>
+        <p>Polite, efficient, and reliable. Bradley brings energy and care to every property he works on. Customers love him.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 48-HOUR GUARANTEE -->
+<section class="about-guarantee">
+  <div class="container">
+    <span class="badge-48">48-HOUR RE-CLEAN GUARANTEE</span>
+    <h2>Make it right, every time.</h2>
+    <p>If you're ever dissatisfied with an area of service, simply let us know within 48 hours and we'll re-clean your space at no additional charge. That's the Trip's promise.</p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="final-cta">
+  <div class="container" style="text-align:center;">
+    <h2>Ready to get started?</h2>
+    <p>Whether it's windows, pressure washing, or gutters — we'd love to hear from you.</p>
+    <div class="btn-row" style="justify-content: center;">
+      <a href="/contact" class="btn btn-primary">Get a Free Estimate →</a>
+      <a href="tel:+13103630781" class="btn btn-ghost" style="color: var(--white); border-color: var(--white);">Call (310) 363-0781</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="grid">
+      <div>
+        <img src="/logo-wordmark-white.png" alt="Trip's Windows" />
+        <p style="margin-top: 8px;">Family-run window cleaning, pressure washing, gutter care, and screen repair. Serving the Westside and South Bay from our home base in Venice, California.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <a href="/services/residential-window-cleaning">Residential Windows</a>
+        <a href="/services/commercial-window-cleaning">Commercial Windows</a>
+        <a href="/services/pressure-washing">Residential Pressure Washing</a>
+        <a href="/services/commercial-pressure-washing">Commercial Pressure Washing</a>
+        <a href="/services/gutter-cleaning">Gutter Cleaning</a>
+      </div>
+      <div>
+        <h4>Service Area</h4>
+        <a href="/service-area">Venice</a>
+        <a href="/service-area">Santa Monica</a>
+        <a href="/service-area">Beverly Hills</a>
+        <a href="/service-area">Sherman Oaks</a>
+        <a href="/service-area">Pasadena</a>
+        <a href="/service-area">View all areas →</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="tel:+13103630781">(310) 363-0781</a>
+        <a href="mailto:info@tripswindows.com">info@tripswindows.com</a>
+        <p style="margin-top: 8px; color: rgba(255,255,255,.5); font-size: 13px;">Venice, California</p>
+      </div>
+    </div>
+    <div class="fine">
+      <div>© 2020–2026 Trip's Window Services. All rights reserved.</div>
+      <div>Made with care in Venice, CA.</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const mobileToggle = document.querySelector('.nav-mobile-toggle');
+const navLinks = document.querySelector('nav.site .links');
+if (mobileToggle) {
+  mobileToggle.addEventListener('click', () => {
+    const open = mobileToggle.getAttribute('aria-expanded') === 'true';
+    mobileToggle.setAttribute('aria-expanded', !open);
+    navLinks.classList.toggle('open');
+  });
+}
+document.querySelectorAll('.nav-dropdown__toggle').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    if (window.innerWidth <= 760) {
+      e.preventDefault();
+      const dd = btn.closest('.nav-dropdown');
+      const wasOpen = dd.classList.contains('open');
+      document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
+      if (!wasOpen) dd.classList.add('open');
+      btn.setAttribute('aria-expanded', !wasOpen);
+    }
+  });
+});
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.nav-dropdown') && !e.target.closest('.nav-mobile-toggle')) {
+    document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
+    if (navLinks) navLinks.classList.remove('open');
+    if (mobileToggle) mobileToggle.setAttribute('aria-expanded', 'false');
+  }
+});
+</script>
+</body>
+</html>
