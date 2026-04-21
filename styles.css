@@ -750,6 +750,8 @@
 .gutter-hero { background-image: none; background: linear-gradient(135deg, var(--paper) 0%, #e8e3d6 100%); }
 /* Commercial pressure washing hero — placeholder gradient until photo is added */
 .commercial-pw-hero { background-image: none; background: linear-gradient(135deg, var(--paper) 0%, #e8e3d6 100%); }
+/* Screen repair hero — placeholder gradient until photo is added */
+.screen-hero { background-image: none; background: linear-gradient(135deg, var(--paper) 0%, #e8e3d6 100%); }
 
 /* City page hero — reuses .hero layout with centered text */
 .city-hero {
