@@ -928,6 +928,46 @@
               radial-gradient(600px 300px at 65% 55%, rgba(140,110,70,.05), transparent 70%);
 }
 
+.pacific-palisades-hero {
+  background-image: none;
+  background: linear-gradient(180deg, #e2ecf4 0%, var(--paper) 60%, var(--white) 100%);
+  border-bottom: 1px solid var(--line);
+}
+.pacific-palisades-hero::before {
+  background: radial-gradient(800px 400px at 50% 30%, rgba(38,86,148,.07), transparent 70%),
+              radial-gradient(600px 300px at 60% 50%, rgba(60,140,100,.05), transparent 70%);
+}
+
+.west-hollywood-hero {
+  background-image: none;
+  background: linear-gradient(180deg, #ebe7f0 0%, var(--paper) 60%, var(--white) 100%);
+  border-bottom: 1px solid var(--line);
+}
+.west-hollywood-hero::before {
+  background: radial-gradient(800px 400px at 50% 30%, rgba(38,86,148,.06), transparent 70%),
+              radial-gradient(600px 300px at 55% 50%, rgba(130,80,160,.05), transparent 70%);
+}
+
+.bel-air-hero {
+  background-image: none;
+  background: linear-gradient(180deg, #e6eaf0 0%, var(--paper) 60%, var(--white) 100%);
+  border-bottom: 1px solid var(--line);
+}
+.bel-air-hero::before {
+  background: radial-gradient(800px 400px at 50% 30%, rgba(38,86,148,.07), transparent 70%),
+              radial-gradient(600px 300px at 55% 50%, rgba(80,120,60,.05), transparent 70%);
+}
+
+.west-la-hero {
+  background-image: none;
+  background: linear-gradient(180deg, #e7e9ee 0%, var(--paper) 60%, var(--white) 100%);
+  border-bottom: 1px solid var(--line);
+}
+.west-la-hero::before {
+  background: radial-gradient(800px 400px at 50% 30%, rgba(38,86,148,.06), transparent 70%),
+              radial-gradient(600px 300px at 60% 50%, rgba(100,100,120,.05), transparent 70%);
+}
+
 /* Chamber / trust badge bar */
 .trust-bar {
   margin-top: 40px;
