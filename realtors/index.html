@@ -199,54 +199,9 @@
     color: var(--slate);
   }
 
-  .estimate-section {
-    padding: 64px 0;
-  }
-  .estimate-form {
-    max-width: 600px;
-    margin: 40px auto 0;
-    background: var(--white);
-    border: 1px solid #e5e2db;
-    border-radius: 12px;
-    padding: 40px 32px;
-  }
-  .estimate-form .form-group {
-    margin-bottom: 20px;
-  }
-  .estimate-form label {
-    display: block;
-    font-weight: 600;
-    font-size: .9rem;
-    margin-bottom: 6px;
-    color: var(--dark);
-  }
-  .estimate-form input,
-  .estimate-form select,
-  .estimate-form textarea {
-    width: 100%;
-    padding: 12px 14px;
-    border: 1px solid #d1cdc4;
-    border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
-    font-size: .95rem;
-    background: var(--paper);
-    color: var(--dark);
-    box-sizing: border-box;
-  }
-  .estimate-form textarea { resize: vertical; min-height: 100px; }
-  .estimate-form input:focus,
-  .estimate-form select:focus,
-  .estimate-form textarea:focus {
-    outline: none;
-    border-color: var(--blue);
-    box-shadow: 0 0 0 3px rgba(38,86,148,.12);
-  }
-  .estimate-form .btn { width: 100%; text-align: center; }
-
   @media (max-width: 760px) {
     .realtor-hero { padding: 80px 0 60px; }
     .partnership-intro .stat-row { gap: 24px; }
-    .estimate-form { padding: 28px 20px; }
   }
 </style>
 </head>
@@ -453,49 +408,67 @@
 </section>
 
 <!-- CONTACT FORM -->
-<section class="section-cream estimate-section">
+<section class="section-cream" style="padding: 64px 0;">
   <div class="container">
-    <div class="section-head">
-      <div class="eyebrow-blue">Get started</div>
-      <h2>Set up a partnership.</h2>
-      <p>Tell us a bit about your business and we'll reach out to get things rolling.</p>
-    </div>
-    <form class="estimate-form" action="https://formsubmit.co/info@tripswindows.com" method="POST">
-      <input type="hidden" name="_subject" value="New Realtor Partnership Inquiry" />
+    <form class="quote-form" action="https://formsubmit.co/info@tripswindows.com" method="POST">
+      <h2>Set up a partnership</h2>
+      <p class="sub">Tell us a bit about your business and we'll reach out to get things rolling.</p>
+
+      <!-- FormSubmit config (hidden) -->
+      <input type="hidden" name="_subject" value="New Realtor Partnership Inquiry — tripswindows.com" />
       <input type="hidden" name="_template" value="table" />
-      <input type="hidden" name="_next" value="https://tripswindows.com/realtors?submitted=true" />
-      <input type="text" name="_honey" style="display:none" />
-      <div class="form-group">
-        <label for="name">Your name</label>
-        <input type="text" id="name" name="name" required placeholder="First and last name" />
+      <input type="hidden" name="_captcha" value="true" />
+      <input type="hidden" name="_next" value="https://tripswindows.com/realtors?sent=1" />
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+
+      <div class="row">
+        <div>
+          <label for="name">Your name *</label>
+          <input id="name" name="name" type="text" required autocomplete="name" />
+        </div>
+        <div>
+          <label for="phone">Phone *</label>
+          <input id="phone" name="phone" type="tel" required autocomplete="tel" />
+        </div>
       </div>
-      <div class="form-group">
-        <label for="brokerage">Brokerage</label>
-        <input type="text" id="brokerage" name="brokerage" placeholder="Company or brokerage name" />
+
+      <div class="row">
+        <div>
+          <label for="email">Email *</label>
+          <input id="email" name="email" type="email" required autocomplete="email" />
+        </div>
+        <div>
+          <label for="brokerage">Brokerage</label>
+          <input id="brokerage" name="brokerage" type="text" placeholder="Company or brokerage name" />
+        </div>
       </div>
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required placeholder="you@brokerage.com" />
+
+      <div class="row">
+        <div>
+          <label for="service">Service needed</label>
+          <select id="service" name="service">
+            <option>Full bundle (windows, pressure washing, gutters, screens)</option>
+            <option>Residential Window Cleaning</option>
+            <option>Commercial Window Cleaning</option>
+            <option>Residential Pressure Washing</option>
+            <option>Gutter Cleaning</option>
+            <option>Screen Repair</option>
+            <option>Not sure — please advise</option>
+          </select>
+        </div>
+        <div>
+          <label for="address">Property address</label>
+          <input id="address" name="address" type="text" placeholder="Street, City" />
+        </div>
       </div>
-      <div class="form-group">
-        <label for="phone">Phone</label>
-        <input type="tel" id="phone" name="phone" placeholder="(310) 000-0000" />
+
+      <div style="margin-bottom: 16px;">
+        <label for="notes">Anything else?</label>
+        <textarea id="notes" name="notes" placeholder="Properties per month, listing timeline, areas you cover, etc."></textarea>
       </div>
-      <div class="form-group">
-        <label for="services">Services you're interested in</label>
-        <select id="services" name="services">
-          <option value="">Select one</option>
-          <option value="full-bundle">Full bundle (windows, pressure washing, gutters, screens)</option>
-          <option value="windows-only">Window cleaning only</option>
-          <option value="pressure-washing">Pressure washing only</option>
-          <option value="custom">Custom combination</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="message">Anything else we should know?</label>
-        <textarea id="message" name="message" placeholder="Properties per month, areas you cover, listing timeline, etc."></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary" style="width:100%; text-align:center;">Send Partnership Inquiry →</button>
+
+      <button type="submit">Send Partnership Inquiry →</button>
+      <p class="fine">We'll never share your info. By submitting, you agree to be contacted about your request.</p>
     </form>
   </div>
 </section>
