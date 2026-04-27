@@ -471,9 +471,9 @@
 
 .contact-grid {
   display: grid; grid-template-columns: 1.4fr 1fr; gap: 56px;
-  padding: 72px 0; align-items: start;
+  padding: 32px 0; align-items: start;
 }
-@media (max-width: 900px) { .contact-grid { grid-template-columns: 1fr; gap: 40px; padding: 56px 0; } }
+@media (max-width: 900px) { .contact-grid { grid-template-columns: 1fr; gap: 40px; padding: 16px 0; } }
 
 .quote-form {
   background: var(--white); border: 1px solid var(--line);
