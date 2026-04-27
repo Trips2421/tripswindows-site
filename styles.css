@@ -961,6 +961,17 @@
               radial-gradient(600px 300px at 55% 60%, rgba(180,160,100,.06), transparent 70%);
 }
 
+/* Calabasas hero — placeholder gradient until photo is added */
+.calabasas-hero {
+  background-image: none;
+  background: linear-gradient(180deg, #eae8df 0%, var(--paper) 60%, var(--white) 100%);
+  border-bottom: 1px solid var(--line);
+}
+.calabasas-hero::before {
+  background: radial-gradient(800px 400px at 50% 30%, rgba(38,86,148,.05), transparent 70%),
+              radial-gradient(600px 300px at 40% 55%, rgba(140,120,70,.06), transparent 70%);
+}
+
 /* Sherman Oaks hero — placeholder gradient until photo is added */
 .sherman-oaks-hero {
   background-image: none;
