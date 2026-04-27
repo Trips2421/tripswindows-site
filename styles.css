@@ -228,6 +228,10 @@
     nav.site .row {
       position: relative;
     }
+    nav.site img {
+      max-width: 180px;
+      height: auto;
+    }
   }
 
   /* Hero — full-bleed photo background with gradient overlay */
@@ -1529,7 +1533,7 @@
 @media (max-width: 420px) {
   .container { padding: 0 16px; }
   nav.site .row { padding: 14px 16px; }
-  nav.site img { height: 28px; }
+  nav.site img { max-width: 150px; height: auto; }
   section { padding: 64px 0; }
   .section-head { margin-bottom: 40px; }
   .hero { padding: 72px 0 80px; }
