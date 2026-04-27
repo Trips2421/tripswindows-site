@@ -801,6 +801,33 @@
 .commercial-pw-hero { background-image: url('/services/hero-commercial-pw.jpg'); }
 .screen-hero { background-image: url('/services/hero-screen-repair.jpg'); }
 
+/* Full-bleed photo background section */
+.section-photo-bg {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 64px 0;
+}
+.section-photo-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(26, 62, 107, 0.82);
+  pointer-events: none;
+}
+.section-photo-bg .container { position: relative; z-index: 1; }
+.section-photo-bg .eyebrow-blue { color: var(--gold); }
+.section-photo-bg h2 { color: var(--white); }
+.section-photo-bg p { color: rgba(255,255,255,.85); }
+.section-photo-bg .diff-card {
+  background: rgba(255,255,255,.1);
+  border-color: rgba(255,255,255,.15);
+}
+.section-photo-bg .diff-card h3 { color: var(--white); }
+.section-photo-bg .diff-card p { color: rgba(255,255,255,.8); }
+.section-photo-bg .diff-num { color: var(--gold); }
+
 /* Card photos inside include-cards */
 .include-card .card-photo {
   width: 100%;
