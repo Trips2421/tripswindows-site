@@ -583,22 +583,26 @@
 .promise-photo .container { position: relative; z-index: 1; }
 
 /* Compact service grid for contact page */
-.services-compact { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
+.services-compact { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; max-width: 700px; margin: 0 auto; }
 @media (max-width: 900px) { .services-compact { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 500px) { .services-compact { grid-template-columns: 1fr; } }
 .service-compact {
   background: var(--white); border: 1px solid var(--line);
-  border-radius: var(--r-md); padding: 20px; text-align: center;
+  border-radius: var(--r-md); padding: 10px; text-align: center;
   transition: all .2s;
 }
 .service-compact:hover { border-color: var(--gold); transform: translateY(-2px); }
+.service-compact .card-photo {
+  width: 100%; height: 80px; object-fit: cover;
+  border-radius: 6px; display: block; margin-bottom: 8px;
+}
 .service-compact .icon-sm {
   width: 40px; height: 40px; margin: 0 auto 10px;
   background: linear-gradient(135deg, var(--gold), var(--gold-dark));
   border-radius: 10px; display: flex; align-items: center; justify-content: center;
 }
 .service-compact .icon-sm svg { width: 22px; height: 22px; color: var(--blue); }
-.service-compact h3 { font-size: .95rem; color: var(--blue); margin: 0; line-height: 1.3; }
+.service-compact h3 { font-size: .8rem; color: var(--blue); margin: 0; line-height: 1.3; }
 
 /* Credentials 4-up */
 .credentials-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
