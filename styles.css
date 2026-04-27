@@ -750,6 +750,16 @@
 .commercial-pw-hero { background-image: url('/services/hero-commercial-pw.jpg'); }
 .screen-hero { background-image: url('/services/hero-screen-repair.jpg'); }
 
+/* Card photos inside include-cards */
+.include-card .card-photo {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 14px;
+}
+
 /* Inline service photos */
 .service-photo {
   width: 100%;
