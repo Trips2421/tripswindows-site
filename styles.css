@@ -742,6 +742,57 @@
    SERVICE PAGE — Residential Window Cleaning, etc.
    ================================================ */
 
+/* Split hero — copy left, image right (used on service pages) */
+.hero-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 520px;
+  background: var(--paper);
+  padding-top: 72px; /* nav clearance */
+}
+.hero-split .hero-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 48px 60px 0;
+  max-width: 640px;
+  margin-left: auto;
+}
+.hero-split .hero-copy .eyebrow {
+  font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .14em;
+  color: var(--blue); margin-bottom: 18px;
+}
+.hero-split .hero-copy h1 { margin-bottom: 8px; }
+.hero-split .hero-copy .script { display: block; font-size: clamp(1.6rem, 3.5vw, 2.4rem); margin-bottom: 20px; }
+.hero-split .hero-copy .lede { font-size: 1.1rem; color: #2a2e38; margin-bottom: 32px; line-height: 1.7; }
+.hero-split .hero-img {
+  position: relative;
+  overflow: hidden;
+}
+.hero-split .hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.hero-split .trust-strip {
+  margin-top: 24px;
+}
+@media (max-width: 900px) {
+  .hero-split {
+    grid-template-columns: 1fr;
+    padding-top: 72px;
+  }
+  .hero-split .hero-copy {
+    padding: 40px 24px 32px;
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .hero-split .hero-img {
+    height: 300px;
+  }
+}
+
 /* Hero — reuses .hero but with a darker overlay suited to service pages */
 .service-hero { background-image: url('/services/hero-residential.jpg'); }
 .commercial-hero { background-image: url('/services/hero-commercial.jpg'); }
