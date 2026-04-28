@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url><loc>https://tripswindows.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+
+  <!-- Core pages -->
+  <url><loc>https://tripswindows.com/contact</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/faq</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/about</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/about/sell-your-business</loc><priority>0.5</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/realtors</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Services -->
+  <url><loc>https://tripswindows.com/services/residential-window-cleaning</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-window-cleaning</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-pressure-washing</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/screen-repair</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-los-angeles</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Service Area hub -->
+  <url><loc>https://tripswindows.com/service-area</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+
+  <!-- Service Area cities -->
+  <url><loc>https://tripswindows.com/service-area/venice</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/santa-monica</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/brentwood</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/pacific-palisades</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/beverly-hills</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/bel-air</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/west-hollywood</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/west-los-angeles</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/culver-city</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/manhattan-beach</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/hermosa-beach</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/redondo-beach</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/el-segundo</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/burbank</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/sherman-oaks</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/studio-city</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/encino</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/calabasas</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/glendale</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/pasadena</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/atwater-village</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Blog -->
+  <url><loc>https://tripswindows.com/blog</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://tripswindows.com/blog/get-your-home-summer-ready</loc><priority>0.6</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://tripswindows.com/blog/meet-the-crew-behind-trips-windows</loc><priority>0.6</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://tripswindows.com/blog/now-serving-san-fernando-valley</loc><priority>0.6</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://tripswindows.com/blog/property-managers-guide-building-exterior-maintenance</loc><priority>0.6</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://tripswindows.com/blog/before-and-after-venice-canals-project</loc><priority>0.6</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://tripswindows.com/blog/why-clean-windows-drive-foot-traffic</loc><priority>0.6</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://tripswindows.com/blog/how-often-should-your-business-clean-its-windows</loc><priority>0.6</priority><changefreq>yearly</changefreq></url>
+</urlset>

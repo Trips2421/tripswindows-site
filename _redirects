@@ -1,0 +1,35 @@
+# Squarespace → New site redirects (301 = permanent)
+# Core pages
+/home                       /                           301
+/contact-us                 /contact                    301
+/faqs                       /faq                        301
+/googlereviews              https://maps.app.goo.gl/4ycZzd1o4Aqg5Wf59  301
+/thank-you                  /contact                    301
+
+# Squarespace blog posts → new blog hub (posts not carried over)
+/blog/signs-its-time-to-replace-your-windows-in-manhattan-beach-amp-west-la                                     /blog  301
+/blog/top-benefits-of-energy-efficient-windows-in-venice-amp-mar-vista-homes                                    /blog  301
+/blog/pressure-washing-vs-soft-washing-whats-right-for-your-la-home                                             /blog  301
+/blog/how-to-choose-the-best-window-replacement-company-in-west-la-amp-santa-monica                             /blog  301
+/blog/how-to-prepare-for-a-window-cleaning-appointment                                                          /blog  301
+/blog/commercial-kitchen-floor-cleaning-protect-your-investment                                                  /blog  301
+/blog/pressure-washing-vs-diy-cleaning-whats-best                                                               /blog  301
+/blog/how-clean-windows-increase-natural-light                                                                   /blog  301
+/blog/the-eco-friendly-side-of-window-cleaning                                                                   /blog  301
+/blog/seasonal-window-cleaning-why-timing-matters                                                                /blog  301
+/blog/the-hidden-dangers-of-dirty-kitchen-floors                                                                 /blog  301
+/blog/pressure-washing-revitalize-your-property                                                                  /blog  301
+/blog/benefits-of-regular-window-cleaning-for-your-business                                                      /blog  301
+/blog/why-clean-windows-boost-curb-appeal                                                                        /blog  301
+/blog/seasonal-window-cleaning-tips-from-trips-window-services                                                   /blog  301
+/blog/the-ultimate-guide-to-choosing-the-right-window-cleaning-service-why-trips-window-services-stands-out      /blog  301
+/blog/how-trips-window-services-helps-maintain-your-homes-value                                                  /blog  301
+/blog/top-5-benefits-of-regular-commercial-window-cleaning-by-trips-window-services                              /blog  301
+/blog/why-professional-window-cleaning-is-essential-for-your-home-insights-from-trips-window-services            /blog  301
+/blog/the-importance-of-window-cleaning-for-restaurants                                                          /blog  301
+/blog/the-importance-of-power-washing-your-driveway                                                              /blog  301
+/blog/the-importance-of-power-washing-for-restaurant-patios                                                      /blog  301
+/blog/blog-post-title-four-cljb3                                                                                 /blog  301
+/blog/blog-post-title-three-7le7h                                                                                /blog  301
+/blog/blog-post-title-two-daypg                                                                                  /blog  301
+/blog/blog-post-title-one-2hnsy                                                                                  /blog  301
