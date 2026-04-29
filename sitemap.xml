@@ -44,6 +44,20 @@
   <url><loc>https://tripswindows.com/service-area/glendale</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/service-area/pasadena</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/service-area/atwater-village</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/torrance</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/palos-verdes</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/hawthorne</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/gardena</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/inglewood</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/tarzana</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/woodland-hills</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/north-hollywood</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/van-nuys</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/silver-lake</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/echo-park</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/los-feliz</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/highland-park</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/eagle-rock</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
 
   <!-- Blog -->
   <url><loc>https://tripswindows.com/blog</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
