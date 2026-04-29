@@ -58,6 +58,43 @@
   <url><loc>https://tripswindows.com/service-area/los-feliz</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/service-area/highland-park</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/service-area/eagle-rock</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/westchester</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/playa-del-rey</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/marina-del-rey</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/mar-vista</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/palms</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Service + City combo pages -->
+  <url><loc>https://tripswindows.com/services/window-cleaning-venice</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-santa-monica</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-beverly-hills</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-pacific-palisades</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-brentwood</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-manhattan-beach</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-pasadena</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-burbank</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-sherman-oaks</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-culver-city</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-venice</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-santa-monica</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-beverly-hills</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-pacific-palisades</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-brentwood</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-manhattan-beach</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-pasadena</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-burbank</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-sherman-oaks</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-culver-city</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-venice</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-santa-monica</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-beverly-hills</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-pacific-palisades</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-brentwood</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-manhattan-beach</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-pasadena</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-burbank</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-sherman-oaks</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-culver-city</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
 
   <!-- Blog -->
   <url><loc>https://tripswindows.com/blog</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
