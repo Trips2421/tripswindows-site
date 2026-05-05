@@ -100,6 +100,30 @@
   <url><loc>https://tripswindows.com/services/gutter-cleaning-sherman-oaks</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/services/gutter-cleaning-culver-city</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
 
+  <!-- Commercial Window Cleaning + City combo pages -->
+  <url><loc>https://tripswindows.com/services/commercial-window-cleaning-venice</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-window-cleaning-santa-monica</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-window-cleaning-beverly-hills</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-window-cleaning-pacific-palisades</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-window-cleaning-brentwood</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-window-cleaning-manhattan-beach</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-window-cleaning-pasadena</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-window-cleaning-burbank</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-window-cleaning-sherman-oaks</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-window-cleaning-culver-city</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Commercial Pressure Washing + City combo pages -->
+  <url><loc>https://tripswindows.com/services/commercial-pressure-washing-venice</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-pressure-washing-santa-monica</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-pressure-washing-beverly-hills</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-pressure-washing-pacific-palisades</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-pressure-washing-brentwood</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-pressure-washing-manhattan-beach</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-pressure-washing-pasadena</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-pressure-washing-burbank</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-pressure-washing-sherman-oaks</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/commercial-pressure-washing-culver-city</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
   <!-- Blog -->
   <url><loc>https://tripswindows.com/blog</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://tripswindows.com/blog/get-your-home-summer-ready</loc><priority>0.6</priority><changefreq>yearly</changefreq></url>
