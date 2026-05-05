@@ -6,6 +6,9 @@
 /googlereviews              https://maps.app.goo.gl/4ycZzd1o4Aqg5Wf59  301
 /thank-you                  /contact                    301
 
+# Truncated/partial URLs Google remembers
+/blog/benefits-of-regular-  /blog                       301
+
 # Squarespace blog posts → new blog hub (posts not carried over)
 /blog/signs-its-time-to-replace-your-windows-in-manhattan-beach-amp-west-la                                     /blog  301
 /blog/top-benefits-of-energy-efficient-windows-in-venice-amp-mar-vista-homes                                    /blog  301
