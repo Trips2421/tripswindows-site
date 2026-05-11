@@ -33,6 +33,7 @@
   <url><loc>https://tripswindows.com/service-area/pacific-palisades</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/service-area/beverly-hills</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/service-area/bel-air</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/hollywood-hills</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/service-area/west-hollywood</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/service-area/west-los-angeles</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/service-area/culver-city</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
@@ -100,6 +101,20 @@
   <url><loc>https://tripswindows.com/services/gutter-cleaning-burbank</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/services/gutter-cleaning-sherman-oaks</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/services/gutter-cleaning-culver-city</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Hillside combo pages (Bel Air, Studio City, Encino, Hollywood Hills) -->
+  <url><loc>https://tripswindows.com/services/window-cleaning-bel-air</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-studio-city</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-encino</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-hollywood-hills</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-bel-air</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-studio-city</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-encino</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-hollywood-hills</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-bel-air</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-studio-city</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-encino</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-hollywood-hills</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
 
   <!-- Commercial Window Cleaning + City combo pages -->
   <url><loc>https://tripswindows.com/services/commercial-window-cleaning-venice</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
