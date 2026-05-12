@@ -138,10 +138,76 @@
     "@type": "Offer",
     "availability": "https://schema.org/InStock",
     "priceCurrency": "USD",
-    "description": "Free estimate. Flat-rate pricing by home size, roof type, and gutter linear footage. Available standalone or bundled with window cleaning."
+    "description": "Free estimate. Straightforward estimates by home size, roof type, and gutter linear footage. Available standalone or bundled with window cleaning."
   }
 }
 </script>
+<!-- JSON-LD: LocalBusiness (sitewide) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://tripswindows.com/#business",
+  "name": "Trip's Window Services",
+  "alternateName": "Trip's Windows",
+  "url": "https://tripswindows.com/",
+  "image": "https://tripswindows.com/logo-badge.png",
+  "logo": "https://tripswindows.com/logo-wordmark-blue.png",
+  "telephone": "+13103630781",
+  "email": "info@tripswindows.com",
+  "foundingDate": "2020",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Venice",
+    "addressRegion": "CA",
+    "postalCode": "90291",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 33.9925,
+    "longitude": -118.4695
+  },
+  "areaServed": [
+    {"@type": "City", "name": "Los Angeles", "containedInPlace": {"@type": "State", "name": "California"}},
+    {"@type": "City", "name": "Santa Monica", "containedInPlace": {"@type": "State", "name": "California"}},
+    {"@type": "City", "name": "Venice", "containedInPlace": {"@type": "State", "name": "California"}},
+    {"@type": "City", "name": "Beverly Hills", "containedInPlace": {"@type": "State", "name": "California"}},
+    {"@type": "City", "name": "Manhattan Beach", "containedInPlace": {"@type": "State", "name": "California"}},
+    {"@type": "AdministrativeArea", "name": "Los Angeles County", "containedInPlace": {"@type": "State", "name": "California"}},
+    {"@type": "AdministrativeArea", "name": "Orange County", "containedInPlace": {"@type": "State", "name": "California"}}
+  ],
+  "openingHoursSpecification": [
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"07:00","closes":"18:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"16:00"}
+  ],
+  "priceRange": "$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "50",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Trip's Windows Services",
+    "itemListElement": [
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Residential Window Cleaning","url":"https://tripswindows.com/services/residential-window-cleaning"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Commercial Window Cleaning","url":"https://tripswindows.com/services/commercial-window-cleaning"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Residential Pressure Washing","url":"https://tripswindows.com/services/pressure-washing"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Commercial Pressure Washing","url":"https://tripswindows.com/services/commercial-pressure-washing"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Gutter Cleaning","url":"https://tripswindows.com/services/gutter-cleaning"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Solar Panel Cleaning","url":"https://tripswindows.com/services/solar-panel-cleaning"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Window Screen Repair","url":"https://tripswindows.com/services/screen-repair"}}
+    ]
+  },
+  "sameAs": [
+    "https://maps.app.goo.gl/4ycZzd1o4Aqg5Wf59"
+  ]
+}
+</script>
+
 </head>
 
 <body>
@@ -158,6 +224,7 @@
           <a href="/services/pressure-washing">Residential Pressure Washing</a>
           <a href="/services/commercial-pressure-washing">Commercial Pressure Washing</a>
           <a href="/services/gutter-cleaning">Gutter Cleaning</a>
+          <a href="/services/solar-panel-cleaning">Solar Panel Cleaning</a>
           <a href="/services/screen-repair">Screen Repair</a>
         </div>
       </div>
@@ -291,7 +358,7 @@
       <div class="step-card">
         <div class="step-num">01</div>
         <h3>Free estimate</h3>
-        <p>Tell us about your home — stories, approximate linear footage, roof type, and tree coverage. We'll quote a flat rate, usually same day. No in-home visit required for most jobs.</p>
+        <p>Tell us about your home — stories, approximate linear footage, roof type, and tree coverage. We'll quote a upfront estimate, usually same day. No in-home visit required for most jobs.</p>
       </div>
       <div class="step-card">
         <div class="step-num">02</div>
@@ -349,7 +416,7 @@
       <div class="diff-card">
         <div class="diff-num">→</div>
         <h3>Standalone gutter cleaning</h3>
-        <p>Book gutter cleaning on its own — full debris removal, downspout flush, roof edge sweep, and minor reattachment. Flat-rate pricing by home size and linear footage. No window cleaning required.</p>
+        <p>Book gutter cleaning on its own — full debris removal, downspout flush, roof edge sweep, and minor reattachment. Straightforward estimates by home size and linear footage. No window cleaning required.</p>
       </div>
       <div class="diff-card">
         <div class="diff-num">★</div>
@@ -459,11 +526,18 @@
       <a href="/services/gutter-cleaning-encino" class="pill" style="text-decoration:none;">Encino</a>
       <a href="/services/gutter-cleaning-studio-city" class="pill" style="text-decoration:none;">Studio City</a>
       <a href="/services/gutter-cleaning-hollywood-hills" class="pill" style="text-decoration:none;">Hollywood Hills</a>
-      <a href="/service-area/calabasas" class="pill" style="text-decoration:none;">Calabasas</a>
+      <a href="/services/gutter-cleaning-calabasas" class="pill" style="text-decoration:none;">Calabasas</a>
       <a href="/services/gutter-cleaning-burbank" class="pill" style="text-decoration:none;">Burbank</a>
       <a href="/service-area/glendale" class="pill" style="text-decoration:none;">Glendale</a>
       <a href="/services/gutter-cleaning-pasadena" class="pill" style="text-decoration:none;">Pasadena</a>
       <a href="/services/gutter-cleaning-manhattan-beach" class="pill" style="text-decoration:none;">Manhattan Beach</a>
+      <a href="/services/gutter-cleaning-woodland-hills" class="pill" style="text-decoration:none;">Woodland Hills</a>
+
+      <a href="/services/gutter-cleaning-palos-verdes" class="pill" style="text-decoration:none;">Palos Verdes</a>
+
+      <a href="/services/gutter-cleaning-silver-lake" class="pill" style="text-decoration:none;">Silver Lake</a>
+
+      <a href="/services/gutter-cleaning-los-feliz" class="pill" style="text-decoration:none;">Los Feliz</a>
       <a href="/service-area" class="pill" style="text-decoration:none;">+ more</a>
     </div>
     <div style="text-align: center; margin-top: 28px;">
@@ -543,7 +617,7 @@
       </details>
       <details>
         <summary>Do you clean second- and third-story gutters?</summary>
-        <div class="answer"><p>Yes. We routinely service two- and three-story homes using extension ladders with stabilizers and proper safety equipment. There's no upcharge for reasonable height access — it's built into the flat-rate quote.</p></div>
+        <div class="answer"><p>Yes. We routinely service two- and three-story homes using extension ladders with stabilizers and proper safety equipment. There's no upcharge for reasonable height access — it's built into the upfront quote.</p></div>
       </details>
       <details>
         <summary>What happens to the debris?</summary>

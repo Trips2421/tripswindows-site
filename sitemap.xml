@@ -20,6 +20,7 @@
   <url><loc>https://tripswindows.com/services/pressure-washing</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/services/commercial-pressure-washing</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/services/gutter-cleaning</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/solar-panel-cleaning</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/services/screen-repair</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/services/window-cleaning-los-angeles</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
 
@@ -115,6 +116,23 @@
   <url><loc>https://tripswindows.com/services/gutter-cleaning-studio-city</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/services/gutter-cleaning-encino</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/services/gutter-cleaning-hollywood-hills</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Hillside combo pages (Calabasas, Woodland Hills, Palos Verdes, Silver Lake, Los Feliz) -->
+  <url><loc>https://tripswindows.com/services/window-cleaning-calabasas</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-woodland-hills</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-palos-verdes</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-silver-lake</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/window-cleaning-los-feliz</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-calabasas</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-woodland-hills</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-palos-verdes</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-silver-lake</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/pressure-washing-los-feliz</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-calabasas</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-woodland-hills</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-palos-verdes</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-silver-lake</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/services/gutter-cleaning-los-feliz</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
 
   <!-- Commercial Window Cleaning + City combo pages -->
   <url><loc>https://tripswindows.com/services/commercial-window-cleaning-venice</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
