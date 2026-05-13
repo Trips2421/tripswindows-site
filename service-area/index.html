@@ -32,6 +32,9 @@
 
 <link rel="stylesheet" href="/styles.css" />
 
+<!-- Leaflet (interactive map) -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
 <!-- Google Analytics (GA4) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JGDVDGL4S5"></script>
 <script>
@@ -293,11 +296,24 @@
     <span class="script">Your neighborhood's local window team.</span>
     <p class="lede">Trip's Windows is headquartered in Venice, California, and we provide window cleaning, pressure washing, gutter cleaning, and screen repair across greater Los Angeles — from Calabasas to Pasadena, Pacific Palisades to Manhattan Beach, and into Orange County. If your home or business is in the areas below, you're in our service zone.</p>
     <div class="btn-row" style="justify-content: center;">
-      <a href="/contact" class="btn btn-primary">Get a Free Estimate →</a>
+      <a href="/contact" class="btn btn-primary">Get a Free Estimate &rarr;</a>
       <a href="tel:+13103630781" class="btn btn-ghost">Call (310) 363-0781</a>
     </div>
   </div>
 </header>
+
+<!-- INTERACTIVE SERVICE-AREA MAP -->
+<section class="section-cream">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow-blue">Coverage map</div>
+      <h2>Every neighborhood we serve.</h2>
+      <p>Click any pin to open that area&rsquo;s service page.</p>
+    </div>
+    <div id="trips-service-map" style="height: 540px; max-width: 1080px; margin: 0 auto; border-radius: 16px; border: 1px solid var(--line); box-shadow: var(--shadow-md); overflow: hidden;" role="application" aria-label="Interactive map of Trip's Windows service areas across Los Angeles"></div>
+    <p style="text-align: center; margin-top: 16px; font-size: .95rem; color: var(--ink);"><strong>42 neighborhoods.</strong> Don&rsquo;t see yours? <a href="/contact" style="color: var(--blue); font-weight: 600;">Ask us &mdash; we serve more areas than we&rsquo;ve mapped.</a></p>
+  </div>
+</section>
 
 <!-- CITY GRID — hub for future city pages -->
 <section>
@@ -982,5 +998,102 @@ document.addEventListener('click', (e) => {
   }
 });
 </script>
+
+<!-- Leaflet (interactive service-area map) -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+(function() {
+  if (typeof L === 'undefined' || !document.getElementById('trips-service-map')) return;
+
+  // Service-area cities with coordinates + URL
+  var cities = [
+    { name: "Venice",            slug: "venice",            lat: 33.9850, lng: -118.4671 },
+    { name: "Santa Monica",      slug: "santa-monica",      lat: 34.0195, lng: -118.4912 },
+    { name: "West Los Angeles",  slug: "west-los-angeles",  lat: 34.0407, lng: -118.4429 },
+    { name: "Brentwood",         slug: "brentwood",         lat: 34.0518, lng: -118.4738 },
+    { name: "Pacific Palisades", slug: "pacific-palisades", lat: 34.0479, lng: -118.5256 },
+    { name: "Beverly Hills",     slug: "beverly-hills",     lat: 34.0736, lng: -118.4004 },
+    { name: "Bel Air",           slug: "bel-air",           lat: 34.1000, lng: -118.4596 },
+    { name: "Hollywood Hills",   slug: "hollywood-hills",   lat: 34.1147, lng: -118.3479 },
+    { name: "West Hollywood",    slug: "west-hollywood",    lat: 34.0900, lng: -118.3617 },
+    { name: "Culver City",       slug: "culver-city",       lat: 34.0211, lng: -118.3965 },
+    { name: "Mar Vista",         slug: "mar-vista",         lat: 34.0049, lng: -118.4357 },
+    { name: "Marina del Rey",    slug: "marina-del-rey",    lat: 33.9802, lng: -118.4517 },
+    { name: "Playa del Rey",     slug: "playa-del-rey",     lat: 33.9608, lng: -118.4453 },
+    { name: "Palms",             slug: "palms",             lat: 34.0307, lng: -118.4012 },
+    { name: "Westchester",       slug: "westchester",       lat: 33.9512, lng: -118.4036 },
+    { name: "Beverlywood",       slug: "beverlywood",       lat: 34.0463, lng: -118.3938 },
+    { name: "Manhattan Beach",   slug: "manhattan-beach",   lat: 33.8847, lng: -118.4109 },
+    { name: "Hermosa Beach",     slug: "hermosa-beach",     lat: 33.8622, lng: -118.3993 },
+    { name: "Redondo Beach",     slug: "redondo-beach",     lat: 33.8492, lng: -118.3884 },
+    { name: "El Segundo",        slug: "el-segundo",        lat: 33.9192, lng: -118.4165 },
+    { name: "Torrance",          slug: "torrance",          lat: 33.8358, lng: -118.3406 },
+    { name: "Hawthorne",         slug: "hawthorne",         lat: 33.9164, lng: -118.3526 },
+    { name: "Gardena",           slug: "gardena",           lat: 33.8883, lng: -118.3089 },
+    { name: "Inglewood",         slug: "inglewood",         lat: 33.9617, lng: -118.3531 },
+    { name: "Palos Verdes",      slug: "palos-verdes",      lat: 33.7700, lng: -118.3870 },
+    { name: "Sherman Oaks",      slug: "sherman-oaks",      lat: 34.1547, lng: -118.4493 },
+    { name: "Studio City",       slug: "studio-city",       lat: 34.1456, lng: -118.3947 },
+    { name: "Encino",            slug: "encino",            lat: 34.1592, lng: -118.5012 },
+    { name: "Tarzana",           slug: "tarzana",           lat: 34.1731, lng: -118.5536 },
+    { name: "Burbank",           slug: "burbank",           lat: 34.1808, lng: -118.3090 },
+    { name: "North Hollywood",   slug: "north-hollywood",   lat: 34.1875, lng: -118.3814 },
+    { name: "Van Nuys",          slug: "van-nuys",          lat: 34.1866, lng: -118.4487 },
+    { name: "Glendale",          slug: "glendale",          lat: 34.1425, lng: -118.2551 },
+    { name: "Woodland Hills",    slug: "woodland-hills",    lat: 34.1684, lng: -118.6058 },
+    { name: "Calabasas",         slug: "calabasas",         lat: 34.1367, lng: -118.6606 },
+    { name: "Pasadena",          slug: "pasadena",          lat: 34.1478, lng: -118.1445 },
+    { name: "Silver Lake",       slug: "silver-lake",       lat: 34.0869, lng: -118.2702 },
+    { name: "Los Feliz",         slug: "los-feliz",         lat: 34.1083, lng: -118.2855 },
+    { name: "Echo Park",         slug: "echo-park",         lat: 34.0782, lng: -118.2606 },
+    { name: "Highland Park",     slug: "highland-park",     lat: 34.1126, lng: -118.1929 },
+    { name: "Eagle Rock",        slug: "eagle-rock",        lat: 34.1456, lng: -118.2095 },
+    { name: "Atwater Village",   slug: "atwater-village",   lat: 34.1144, lng: -118.2647 }
+  ];
+
+  // Initialize map centered on LA, sized to show all markers
+  var map = L.map('trips-service-map', {
+    scrollWheelZoom: false,
+    tap: true
+  }).setView([34.03, -118.40], 10);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+
+  // Brand-colored circle marker
+  var brandIcon = L.divIcon({
+    className: 'trips-marker',
+    html: '<div style="width:20px;height:20px;border-radius:50%;background:#265694;border:3px solid #FFCA56;box-shadow:0 2px 6px rgba(0,0,0,0.3);"></div>',
+    iconSize: [20, 20],
+    iconAnchor: [10, 10],
+    popupAnchor: [0, -10]
+  });
+
+  var bounds = [];
+  cities.forEach(function(city) {
+    var marker = L.marker([city.lat, city.lng], { icon: brandIcon }).addTo(map);
+    var popupHtml =
+      '<div style="font-family: Poppins, sans-serif; padding: 4px 2px; min-width: 180px;">' +
+      '<strong style="color:#265694; font-size:1rem; display:block; margin-bottom:6px;">' + city.name + '</strong>' +
+      '<a href="/service-area/' + city.slug + '" style="color:#265694; text-decoration:underline; font-size:.9rem; display:block; margin-bottom:4px;">All services in ' + city.name + ' &rarr;</a>' +
+      '<a href="/contact" style="color:#1a3e6b; text-decoration:none; font-size:.85rem; font-weight:600;">Get a free estimate &rarr;</a>' +
+      '</div>';
+    marker.bindPopup(popupHtml);
+    bounds.push([city.lat, city.lng]);
+  });
+
+  // Fit bounds with a touch of padding
+  if (bounds.length > 0) {
+    map.fitBounds(bounds, { padding: [40, 40] });
+  }
+
+  // Enable scroll-zoom only after user clicks (prevents accidental zoom when scrolling the page)
+  map.on('click', function() { map.scrollWheelZoom.enable(); });
+  map.on('mouseout', function() { map.scrollWheelZoom.disable(); });
+})();
+</script>
+
 </body>
 </html>
