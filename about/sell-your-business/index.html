@@ -507,14 +507,15 @@
     </div>
     <div class="acq-form-section">
 
-      <form class="quote-form" action="https://formsubmit.co/info@tripswindows.com" method="POST">
+      <form class="quote-form" action="https://api.web3forms.com/submit" method="POST">
+        <!-- Web3Forms config (hidden) -->
+        <input type="hidden" name="access_key" value="1e56e784-e66f-4c7a-aad3-38c3ed316cf1" />
+        <input type="hidden" name="subject" value="New 'Sell Your Business' inquiry — tripswindows.com" />
+        <input type="hidden" name="from_name" value="Trip's Windows Website" />
+        <input type="hidden" name="redirect" value="https://tripswindows.com/about/sell-your-business?sent=1" />
+        <input type="checkbox" name="botcheck" style="display: none;" tabindex="-1" autocomplete="off" />
 
         <!-- FormSubmit config -->
-        <input type="hidden" name="_subject" value="Business Acquisition Inquiry — tripswindows.com" />
-        <input type="hidden" name="_template" value="table" />
-        <input type="hidden" name="_captcha" value="true" />
-        <input type="hidden" name="_next" value="https://tripswindows.com/about/sell-your-business?sent=1" />
-        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
 
         <h2>Confidential inquiry form</h2>
         <p class="sub">Tell us a bit about what you've built. No obligation.</p>
