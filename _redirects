@@ -4,7 +4,7 @@
 /contact-us                 /contact                    301
 /faqs                       /faq                        301
 /googlereviews              https://maps.app.goo.gl/4ycZzd1o4Aqg5Wf59  301
-/thank-you                  /contact                    301
+# (Removed: /thank-you → /contact 301 — we now have a real /thank-you page)
 
 # Truncated/partial URLs Google remembers
 /blog/benefits-of-regular-  /blog                       301
