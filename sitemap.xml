@@ -83,6 +83,11 @@
   <url><loc>https://tripswindows.com/service-area/altadena</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/service-area/la-canada-flintridge</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
 
+  <!-- Content cluster blog posts -->
+  <url><loc>https://tripswindows.com/blog/foothill-pre-fire-season-exterior-maintenance</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/blog/palos-verdes-peninsula-hard-water-glass-restoration</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/blog/wilshire-corridor-high-rise-window-cleaning-hoa-guide</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
   <!-- Service + City combo pages -->
   <url><loc>https://tripswindows.com/services/window-cleaning-venice</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/services/window-cleaning-santa-monica</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
