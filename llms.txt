@@ -28,15 +28,17 @@
 
 Trip's serves the following Los Angeles and surrounding communities with dedicated weekly routes and no travel surcharges:
 
-**Westside:** Venice, Santa Monica, West LA, Brentwood, Pacific Palisades, Beverly Hills, Culver City, Mar Vista, Marina del Rey, Playa del Rey, Palms, Westchester, Beverlywood, West Hollywood
+**Westside:** Venice, Santa Monica, West LA, Brentwood, Pacific Palisades, Beverly Hills, Culver City, Mar Vista, Marina del Rey, Playa del Rey, Playa Vista, Palms, Westchester, Beverlywood, West Hollywood, Westwood, Ladera Heights
 
-**South Bay:** Manhattan Beach, El Segundo, Hermosa Beach, Redondo Beach, Torrance, Gardena, Hawthorne, Inglewood, Palos Verdes Peninsula
+**South Bay:** Manhattan Beach, El Segundo, Hermosa Beach, Redondo Beach, Torrance, Gardena, Hawthorne, Inglewood, Palos Verdes Peninsula, Rolling Hills, Rancho Palos Verdes
 
 **San Fernando Valley:** Sherman Oaks, Studio City, Encino, Tarzana, North Hollywood, Burbank, Glendale, Van Nuys, Woodland Hills, Calabasas
 
-**Eastside / Central LA:** Los Feliz, Silver Lake, Echo Park, Highland Park, Eagle Rock, Atwater Village, Pasadena, Hollywood Hills
+**Eastside / Central LA:** Los Feliz, Silver Lake, Echo Park, Highland Park, Eagle Rock, Atwater Village, Pasadena, Hollywood Hills, Hancock Park
 
-**Hillside estates:** Bel Air, Hollywood Hills
+**Foothills:** Altadena, La Cañada Flintridge
+
+**Hillside estates &amp; canyons:** Bel Air, Hollywood Hills, Beverly Glen, Laurel Canyon, Topanga, Mandeville Canyon
 
 **Orange County:** Service available; specific cities expanding. Contact for details.
 
@@ -46,7 +48,7 @@ For a complete list with city-specific service pages, see the [Service Area hub]
 
 - [Homepage](https://tripswindows.com/)
 - [Contact](https://tripswindows.com/contact): (310) 363-0781, info@tripswindows.com
-- [Service Area](https://tripswindows.com/service-area): Full list of 40+ city pages
+- [Service Area](https://tripswindows.com/service-area): Full list of 50+ city pages
 - [About](https://tripswindows.com/about): Family-run since 2020, based in Venice
 - [Blog](https://tripswindows.com/blog): Local maintenance guides, service education, and FAQ answers
 - [FAQ](https://tripswindows.com/faq): Common questions about scheduling, frequency, and service details

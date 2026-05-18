@@ -70,6 +70,18 @@
   <url><loc>https://tripswindows.com/service-area/mar-vista</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/service-area/palms</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/service-area/beverlywood</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/playa-vista</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/beverly-glen</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/laurel-canyon</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/topanga</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/mandeville-canyon</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/westwood</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/hancock-park</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/ladera-heights</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/rolling-hills</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/rancho-palos-verdes</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/altadena</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/service-area/la-canada-flintridge</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
 
   <!-- Service + City combo pages -->
   <url><loc>https://tripswindows.com/services/window-cleaning-venice</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
