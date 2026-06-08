@@ -83,6 +83,10 @@
   <url><loc>https://tripswindows.com/service-area/altadena</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/service-area/la-canada-flintridge</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
 
+  <!-- Seasonal posts (June 2026) -->
+  <url><loc>https://tripswindows.com/blog/june-gloom-marine-layer-window-cleaning-los-angeles</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/blog/summer-entertainment-ready-exterior-prep-guide-los-angeles</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
   <!-- AEO/GEO Q&A posts -->
   <url><loc>https://tripswindows.com/blog/why-are-my-windows-streaky-after-cleaning</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/blog/when-to-schedule-window-cleaning-los-angeles</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
