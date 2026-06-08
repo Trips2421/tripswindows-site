@@ -83,6 +83,11 @@
   <url><loc>https://tripswindows.com/service-area/altadena</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/service-area/la-canada-flintridge</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
 
+  <!-- Solar panel cleaning cluster (June 2026) -->
+  <url><loc>https://tripswindows.com/blog/how-often-clean-solar-panels-los-angeles</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/blog/why-dirty-solar-panels-lose-efficiency</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tripswindows.com/blog/diy-vs-professional-solar-panel-cleaning-los-angeles</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
   <!-- Seasonal posts (June 2026) -->
   <url><loc>https://tripswindows.com/blog/june-gloom-marine-layer-window-cleaning-los-angeles</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://tripswindows.com/blog/summer-entertainment-ready-exterior-prep-guide-los-angeles</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
